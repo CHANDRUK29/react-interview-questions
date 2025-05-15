@@ -3,7 +3,7 @@ import './App.css'
 import Home from './pages/home'
 import ProductListing from './pages/productsListing'
 import ProductsDetails from './pages/productsdetails'
-import { useEffect, useState } from 'react'
+import BreadCrums from './components/BreadCrums'
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
      <div className='App'>
       <h1>Store</h1>
       {/* breadCrums */}
+      <BreadCrums/>
       {/* Routes */}
 
       <Routes>

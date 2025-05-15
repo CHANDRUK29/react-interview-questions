@@ -31,7 +31,7 @@ const Home = () => {
                 }
             </div>
             <Link to={'/products'}>
-                <button style={{width:'100%', padding:10}}>View All Products</button>
+                <button style={{width:'100%', padding:10,cursor:'pointer'}}>View All Products</button>
             </Link>
         </div>
     )
